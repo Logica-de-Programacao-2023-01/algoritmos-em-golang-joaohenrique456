@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Print("Informe um número:")
+	fmt.Scan(&x)
+
+	antecessor := x - 1
+	sucessor := x + 1
+	fmt.Println("O antecessor do seu número será:", antecessor)
+	fmt.Println("O sucessor do seu número será:", sucessor)
+}
+

@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, y, z int
+	fmt.Print("Escreva um numero inteiro:")
+	fmt.Scan(&x)
+	fmt.Print("Escreva um numero inteiro:")
+	fmt.Scan(&y)
+	fmt.Print("Escreva um numero inteiro:")
+	fmt.Scan(&z)
+	soma := x + y + z
+	fmt.Println("Então o resultado da soma é:", soma)
+}
+

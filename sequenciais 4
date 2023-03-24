@@ -1,0 +1,24 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, x2, x3 float64
+	fmt.Print("Escreva um numero real")
+	fmt.Scan(&x)
+	fmt.Print("Escreva um numero real:")
+	fmt.Scan(&x2)
+	fmt.Print("Escreva um numero real:")
+	fmt.Scan(&x3)
+	var p1, p2, p3 float64
+	fmt.Print("Escreva um peso:")
+	fmt.Scan(&p1)
+	fmt.Print("Escreva um peso:")
+	fmt.Scan(&p2)
+	fmt.Print("Escreva um peso:")
+	fmt.Scan(&p3)
+
+	MP := x*p1 + x2*p2 + x3*p3/p1 + p2 + p3
+	fmt.Println("Esse é o resultado da sua Média Ponderada:", MP)
+}
+

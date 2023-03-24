@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+
+func main() {
+	var kg float64
+	fmt.Print("Para descobrir seu peso em libras informe o seu peso:")
+	fmt.Scan(&kg)
+
+	lb := kg * 2.2046
+	fmt.Println("O seu peso em libras será:", lb)
+}
+
